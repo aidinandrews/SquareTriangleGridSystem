@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Program Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Program Files\Shaders">
+      <UniqueIdentifier>{bfeeeb7b-498c-4f33-a63c-c3a6fdd380e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program Files\Engine">
+      <UniqueIdentifier>{35cd1ca3-ea55-4f70-830b-60ba1f813628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program Files\Engine\VulkanBits">
+      <UniqueIdentifier>{03a248be-277c-4f3d-9da8-cbdf76b85649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program Files\Resources">
+      <UniqueIdentifier>{a08e3f95-7aa7-4751-9c62-e62031d41ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program Files\Dependancies">
+      <UniqueIdentifier>{3d4a4a70-09ec-4243-b723-a3f7ecf2404b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program Files\Engine\GUI">
+      <UniqueIdentifier>{edff790a-92b9-4d78-aa75-6d8ca6b788db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program Files\Engine\EngineComponents">
+      <UniqueIdentifier>{db06c171-16f6-47a7-80e5-fa9bb84867a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program Files\Engine\World">
+      <UniqueIdentifier>{3b0205c6-ca0b-49e8-8af3-82d7127c2ed3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VulkanImages.cpp">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryHardware.cpp">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanBuffers.cpp">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanCommands.cpp">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClCompile>
+    <ClCompile Include="vulkanDebug.cpp">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicStructures.cpp">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClCompile>
+    <ClCompile Include="stbi_image.cpp">
+      <Filter>Program Files\Dependancies</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIManager.cpp">
+      <Filter>Program Files\Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinateWrappers.cpp">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="SnapInfoDepricated.cpp">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PointObject.cpp">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeObject.cpp">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSegmentObject.cpp">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Program Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjManager.cpp">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PointObjGenerator.cpp" />
+    <ClCompile Include="ThreadedLinkedList.cpp" />
+    <ClCompile Include="Test.cpp">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VulkanImages.h">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryHardware.h">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanBuffers.h">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanCommands.h">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanDebug.h">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicStructures.h">
+      <Filter>Program Files\Engine\VulkanBits</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_image.h">
+      <Filter>Program Files\Dependancies</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIManager.h">
+      <Filter>Program Files\Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>Program Files\Dependancies</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinateWrappers.h">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Program Files\Dependancies</Filter>
+    </ClInclude>
+    <ClInclude Include="PointObject.h">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorHelperFunctions.h">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSegmentObject.h">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeObject.h">
+      <Filter>Program Files\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorialCode.h">
+      <Filter>Program Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjManager.h">
+      <Filter>Program Files\Engine\EngineComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PointObjGenerator.h">
+      <Filter>Program Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadedLinkedList.h">
+      <Filter>Program Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Program Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\shader.frag">
+      <Filter>Program Files\Shaders</Filter>
+    </None>
+    <None Include="shaders\shader.vert">
+      <Filter>Program Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\SculptureFace.jpg">
+      <Filter>Program Files\Resources</Filter>
+    </Image>
+    <Image Include="textures\TheGreatWave.jpg">
+      <Filter>Program Files\Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

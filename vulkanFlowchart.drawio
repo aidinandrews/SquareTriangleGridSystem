@@ -1,0 +1,189 @@
+<mxfile host="Electron" modified="2023-06-11T21:16:44.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="Bys33FvQBjZtgbBxNeHZ" version="21.3.7" type="device">
+  <diagram name="Page-1" id="g5FQo3i5_9hsfGVzxHu9">
+    <mxGraphModel dx="3176" dy="2228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="2500" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wlTkBE1J-HcpKStavOt4-24" value="Vulkan&lt;br&gt;Instance" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="1190" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-37" value="Vulkan&lt;br&gt;Logical Device&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(handle for interacting with the Vulkan Physical Device struct)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="710" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-97" target="wlTkBE1J-HcpKStavOt4-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="950" />
+              <mxPoint x="640" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-97" value="Vulkan&lt;br&gt;Vertex Buffer&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;wrapper for array information&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="740" y="971.33" width="160" height="190.66" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-109" value="Vertex Array" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1030.6600000000003" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-93" value="Vulkan&lt;br&gt;Command Pool&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Allocates memory for command buffers.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="770" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-83" value="Vulkan&lt;br&gt;Frame Buffer&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Binds one or more images together to be used for frame creation.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="971.33" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-73" value="Vulkan&lt;br&gt;Image Views&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(How to interpret image data.&amp;nbsp; I.e. if it is color data or floats or something else.)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1041.33" width="140" height="178.67" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-71" value="Vulkan&lt;br&gt;Images&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(Buffers that are read as 2D images.&amp;nbsp; Can be color, depth, or other exotic types.)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1130.0000000000005" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-102" target="wlTkBE1J-HcpKStavOt4-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="950" />
+              <mxPoint x="640" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-102" value="Vulkan&lt;br&gt;Descriptor Pool&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Allocates memory for Descriptor Sets&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="920" y="970.0000000000001" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-3" target="wlTkBE1J-HcpKStavOt4-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-3" target="wlTkBE1J-HcpKStavOt4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-3" value="Program" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-24" target="wlTkBE1J-HcpKStavOt4-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="378.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-29" value="Vulkan&lt;br&gt;Library" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-24" target="wlTkBE1J-HcpKStavOt4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-32" target="wlTkBE1J-HcpKStavOt4-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-32" value="Vulkan&lt;br&gt;Physical Device&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(handle for interacting with computer components)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="737.34" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-35" target="wlTkBE1J-HcpKStavOt4-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-35" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-41" value="Queue Family&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(how commands are submitted to physical devices)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="770" y="678.67" width="160" height="251.33" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-42" target="wlTkBE1J-HcpKStavOt4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-42" value="Graphics Queue&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(queue of commands related to graphics)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="827.3399999999999" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-48" target="wlTkBE1J-HcpKStavOt4-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="777" />
+              <mxPoint x="1050" y="777" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-48" value="Present Queue&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(queue of commands related to presentation of data to a surface)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="737.3399999999999" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-50" target="wlTkBE1J-HcpKStavOt4-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-50" value="GLFW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-52" target="wlTkBE1J-HcpKStavOt4-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-52" value="GLFW&lt;br&gt;Window" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-54" value="Physical Window" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-56" target="wlTkBE1J-HcpKStavOt4-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-56" value="Vulkan&lt;br&gt;Surface&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(how Vulkan interacts with a screen)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="839.9999999999999" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-61" target="wlTkBE1J-HcpKStavOt4-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-61" value="Vulkan&lt;br&gt;Swap Chain&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(n images that act as a framebuffer.)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-83" target="wlTkBE1J-HcpKStavOt4-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-84" target="wlTkBE1J-HcpKStavOt4-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="950" />
+              <mxPoint x="640" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-84" value="Vulkan&lt;br&gt;Render Pass&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-92" target="wlTkBE1J-HcpKStavOt4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-92" value="Vulkan&lt;br&gt;Command Buffer&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Tells the GPU what to do and where to put work&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="827.34" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-96" value="Vulkan&lt;br&gt;Descriptor Sets&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;A bundle of pointers to CPU resources like buffers and images.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-100" target="wlTkBE1J-HcpKStavOt4-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-100" value="Vulkan&lt;br&gt;Uniform Buffer&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1151.33" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-108" value="OBJ File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1060.6600000000003" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-125" target="wlTkBE1J-HcpKStavOt4-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-125" value="Shader Code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-126" target="wlTkBE1J-HcpKStavOt4-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="950" />
+              <mxPoint x="640" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-126" value="Vulkan&lt;br&gt;Graphics Pipeline&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlTkBE1J-HcpKStavOt4-128" target="wlTkBE1J-HcpKStavOt4-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlTkBE1J-HcpKStavOt4-128" value="Vulkan&lt;br&gt;Binding Description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
